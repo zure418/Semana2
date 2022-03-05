@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: plum;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+   font-size: 3.5em;
+   color: aliceblue;
+   text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-size: 2.7em;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h3{
+    font-size: 2em;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid cornflowerblue;
+    box-shadow: 2px 2px 10px cornflowerblue;
+    color: aliceblue;
+    background-color: purple;
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+p{
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 1.20em;
+    text-align: center;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: purple;
+    font-size: 1.50em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black ;
+}
+
+header a:hover{
+    color: purple;
+}
+
+#hero{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: purple;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )  
+}
